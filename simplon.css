@@ -1,0 +1,27 @@
+body {    
+  background-image:url(simplon.jpg);
+  background-attachment:fixed;
+background-size: 78%;
+background-repeat: no-repeat;
+color: #black;
+}
+
+h1 {
+font-size: 35px;
+}
+
+footer {
+  font: right;
+}
+
+section {
+position: static;
+border-radius: 20px;
+left: 30px;
+right: 300px;
+bottom: auto;
+border: solid #ed1651 5px;
+padding-left: 20px;
+ background-color: rgba(210, 210, 210, 0.6);
+ color: black;
+}

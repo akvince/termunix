@@ -1,0 +1,14 @@
+body {
+  background-image:url(https://scontent-cdg2-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/11377280_1587350491546563_4881542856194705175_n.jpg?oh=c4e786d7f07eb0cdb5ef987d2aa8949c&oe=56B954EE);
+  background-attachment:fixed;
+  background-size: 100%;
+  color: #B8C0B3;
+}
+
+h1 {
+font-size: 35px;
+}
+
+ul li {
+font-size: 25px;
+  }
