@@ -47,7 +47,10 @@ footer {
 @media screen and (max-width: 600px)
 {
 body {
-  background-color: red;
+  background-image: url(simplonrbx.jpeg);
+background-size: 100%;
+background-attachment:scroll;
+background-repeat: no-repeat;
 }
 
 h1 {
