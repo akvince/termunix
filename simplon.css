@@ -45,6 +45,8 @@ footer {
 }
 
 code {
+  background-color: grey;
+  border-radius: 5px;
 font-weight: bold;
 font-style: italic;
 }
