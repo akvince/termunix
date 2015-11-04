@@ -1,10 +1,10 @@
 body {
-background-color: #120800;
-color: #black;
+  background-color: #120800;
+  color: #black;
 }
 
 h1 {
-font-size: 2.8em;
+  font-size: 2.8em;
 }
 h2{
   font-size: 2.6em;
@@ -19,7 +19,7 @@ h5{
 }
 
 p {
-font-size: 1.8em;
+  font-size: 1.8em;
 }
 
 li {
@@ -31,12 +31,12 @@ header {
 }
 
 section {
-position: static;
-border-radius: 20px;
-margin-left: 1%;
-margin-right: 3%;
-border: solid gray 5px ;
-padding-left: 1%;
+  position: static;
+  border-radius: 20px;
+  margin-left: 1%;
+  margin-right: 3%;
+  border: solid gray 5px ;
+  padding-left: 1%;
  color: lightgray;
 }
 
@@ -47,8 +47,8 @@ footer {
 code {
   background-color: grey;
   border-radius: 5px;
-font-weight: bold;
-font-style: italic;
+  font-weight: bold;
+  font-style: italic;
 }
 
 @media screen and (max-width: 600px)
@@ -58,7 +58,7 @@ body {
 }
 
 h1 {
-font-size: 3.1875em;
+  font-size: 3.1875em;
 }
 h2{
   font-size: 2.8em;
@@ -69,7 +69,7 @@ h3{
 }
 
 p {
-font-size: 1.8em;
+  font-size: 1.8em;
 }
 
 li {
