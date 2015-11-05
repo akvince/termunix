@@ -1,67 +1,86 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link type="text/css" rel="stylesheet" href="simplon.css"/>
-    <link rel="shortcut icon" href="favicon.ico">
-    <title>termunix</title>
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="style.css" />
+  <link type="text/css" rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)" />
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>termunix</title>
+</head>
+
 <body>
   <header>
     <img src="logora.svg">
-</header>
+  </header>
   <section>
     <h1>Utilisation des lignes de commande sous linux :</h1>
 
-      <h2>Commandes de base pour ubuntu :</h2>
-        <p>Passer en super utilisateur avec la commande « sudo su » vous permet de passer outre le fait de taper sudo à chaque début de ligne de commandes.</p>
+    <h2>Commandes de base pour ubuntu :</h2>
+    <p>Passer en super utilisateur avec la commande « sudo su » vous permet de passer outre le fait de taper sudo à chaque début de ligne de commandes.</p>
 
-      <h3>Apt-get et la gestion de paquets :</h3>
-        <p>Comme dit juste au-dessus si vous êtes en super user, vous n'aurez plus à taper « sudo » avant chaque ligne de commandes sinon vous devrez taper sudo à chaque début de ligne.</p>
-        <ul>
-          <li><code>Apt-get update :</code> permet la mise jour des paquets disponibles.</li>
-          <li><code>Apt-get upgrade :</code> met à jour les paquets déjà installés.</li>
-          <li><code>Apt-get install « nom du fichier » :</code> permet d'installer un logiciel donné.</li>
-          <li><code>Apt-get remove «  nom du fichier » :</code> désinstalle le logiciel.</li>
-          <li><code>Apt-get autoremove « nom du fichier » :</code> désinstalle le logiciel et toutes ses dépendances.</li>
-        </ul>
+    <h3>Apt-get et la gestion de paquets :</h3>
+    <p>Comme dit juste au-dessus si vous êtes en super user, vous n'aurez plus à taper « sudo » avant chaque ligne de commandes sinon vous devrez taper sudo à chaque début de ligne.</p>
+    <ul>
+      <li>
+        <code>Apt-get update :</code> permet la mise jour des paquets disponibles.</li>
+      <li>
+        <code>Apt-get upgrade :</code> met à jour les paquets déjà installés.</li>
+      <li>
+        <code>Apt-get install « nom du fichier » :</code> permet d'installer un logiciel donné.</li>
+      <li>
+        <code>Apt-get remove «  nom du fichier » :</code> désinstalle le logiciel.</li>
+      <li>
+        <code>Apt-get autoremove « nom du fichier » :</code> désinstalle le logiciel et toutes ses dépendances.</li>
+    </ul>
 
-      <h3>Vérification des fichiers et sous-dossiers avec la commande « ls » list :</h3>
-        <ul>
-          <li><code>ls :</code> affiche les dossiers.</li>
-          <li><code>ls -l :</code> permet d'afficher les informations des sous-dossiers.</li>
-          <li><code>ls -a :</code> affiche les fichiers cachés.  </li>
-          <li><code>ls -al :</code> affiche tous les fichiers même ceux qui sont cachés.</li>
-        </ul>
+    <h3>Vérification des fichiers et sous-dossiers avec la commande « ls » list :</h3>
+    <ul>
+      <li>
+        <code>ls :</code> affiche les dossiers.</li>
+      <li>
+        <code>ls -l :</code> permet d'afficher les informations des sous-dossiers.</li>
+      <li>
+        <code>ls -a :</code> affiche les fichiers cachés. </li>
+      <li>
+        <code>ls -al :</code> affiche tous les fichiers même ceux qui sont cachés.</li>
+    </ul>
 
-      <h3>Déplacement dans les dossiers avec la commande « cd » Change directory :</h3>
-        <ul>
-          <li><code>cd /home/utilisateur/dossier</code> Permet d'arriver directement au répertoire dossier.</li>
-          <li><code>cd ..</code> vous permet de remonter au répertoire précedent.</li>
-        </ul>
+    <h3>Déplacement dans les dossiers avec la commande « cd » Change directory :</h3>
+    <ul>
+      <li>
+        <code>cd /home/utilisateur/dossier</code> Permet d'arriver directement au répertoire dossier.</li>
+      <li>
+        <code>cd ..</code> vous permet de remonter au répertoire précedent.</li>
+    </ul>
 
-      <h3>Création de dossier avec « Mkdir » Make directory :</h3>
-        <ul>
-          <li><code>Mkdir « nom_du_dossier »</code> vous permettra de créer un dossier voulu.</li>
-        </ul>
+    <h3>Création de dossier avec « Mkdir » Make directory :</h3>
+    <ul>
+      <li>
+        <code>Mkdir « nom_du_dossier »</code> vous permettra de créer un dossier voulu.</li>
+    </ul>
 
-      <h3>Création de fichiers</h3>
-        <ul>
-          <li><code>touch permet de créer un fichier :</code> touch « nom_du_fichier » + « extension du fichier »</li>
-          <li><code>cat</code> affiche les fichiers dans un terminal</li>
-        </ul>
+    <h3>Création de fichiers</h3>
+    <ul>
+      <li>
+        <code>touch permet de créer un fichier :</code> touch « nom_du_fichier » + « extension du fichier »</li>
+      <li>
+        <code>cat</code> affiche les fichiers dans un terminal</li>
+    </ul>
 
-      <h3>Suppression de dossier avec « rmdir » remove directory :</h3>
-        <ul>
-          <li><code>rmdir « nom_du_dossier »</code> permet de supprimer un sous-dossier.</li>
-        </ul>
+    <h3>Suppression de dossier avec « rmdir » remove directory :</h3>
+    <ul>
+      <li>
+        <code>rmdir « nom_du_dossier »</code> permet de supprimer un sous-dossier.</li>
+    </ul>
 
-      <h3>Exit ou comment sortir du terminal :</h3>
-        <p>Si vous êtes en super user, taper exit vous permettra de quitter le mode administrateur et si vous tapez une deuxième fois exit vous fermerez le terminal.</p>
+    <h3>Exit ou comment sortir du terminal :</h3>
+    <p>Si vous êtes en super user, taper exit vous permettra de quitter le mode administrateur et si vous tapez une deuxième fois exit vous fermerez le terminal.</p>
 
-      <h3>Les easters eggs dans la fenêtre de commande :</h3>
-        <p>Fenêtre à la matrix en installant cmatrix « apt-get install cmatrix » puis le lancer en tapant cmatrix, faire de même en installant sl avec la même commande et le lancer pour voir un train dans la fenêtre de commande.
-        Afficher une vache en tapant apt-get moo.</p>
-    </section>
-  </body>
+    <h3>Les easters eggs dans la fenêtre de commande :</h3>
+    <p>Fenêtre à la matrix en installant cmatrix « apt-get install cmatrix » puis le lancer en tapant cmatrix, faire de même en installant sl avec la même commande et le lancer pour voir un train dans la fenêtre de commande. Afficher une vache en tapant
+      apt-get moo.</p>
+  </section>
+</body>
+
 </html>
